@@ -4,9 +4,10 @@
 
 function convertToFahrenheit(celsius) {
     let fahrenheit;
+    fahrenheit= celsius*(9/5)+32
     return fahrenheit;
 }
 
 
-convertToF(-30) // -> -22
-convertToF(-10) // -> 14
+console.log(convertToFahrenheit(-30)) // -> -22
+console.log(convertToFahrenheit(-10)) // -> 14

@@ -1,6 +1,6 @@
 function confirmEnding(str, target) {
-  
+  return str.endsWith(target)
 }
 
-confirmEnding("Bastian", "n") // => true
-confirmEnding("Congratulation", "on") // => true
+console.log(confirmEnding("Bastian", "n")) // => true
+console.log(confirmEnding("Congratulation", "on")) // => true
